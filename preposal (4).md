@@ -4,7 +4,7 @@
 
 A program where the user inputs a musical key (A,B,Db,G,etc.) and a scale (Major, Minor, etc.) and
 be showna visualization of where the notes are on teh neck of the guitar,
-maybe through turtle graphics.
+maybe through turtle graphics, PyGame, or MatPlotLib.
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 

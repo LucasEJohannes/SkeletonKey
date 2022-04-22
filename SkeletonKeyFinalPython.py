@@ -38,13 +38,6 @@ strings = [['E','F','F#','G','G#','A','A#','B','C','C#','D','D#','E','F','F#','G
            ['B','C','C#','D','D#','E','F','F#','G','G#','A','A#','B','C','C#','D','D#','E','F','F#','G','G#','A','A#'],
            ['E','F','F#','G','G#','A','A#','B','C','C#','D','D#','E','F','F#','G','G#','A','A#','B','C','C#','D','D#']]
 
-"""major = [2,2,1,2,2,2,1]
-minor = [2,1,2,2,1,2,2]
-minb = [3,2,1,1,3,2]
-majb = [2,1,1,3,2,3]
-mix = [2,2,1,2,2,1,2]
-dor = [2,1,2,2,2,1,2]
-pent = [2,2,3,2,3]"""
 
 scales = [[2,2,1,2,2,2,1],
           [2,1,2,2,1,2,2],
@@ -118,16 +111,4 @@ gtrStrings()
 ax.scatter(xs,ys,s=60,c=colors,cmap='autumn',edgecolors='black',zorder=2)
 plt.show()
 
-"""tmpfile = BytesIO()
-fig.savefig(tmpfile, format='png')
-encoded = base64.b64encode(tmpfile.getvalue()).decode('utf-8')
 
-
-with open('SKHomePage.html','w') as f:
-    html = "some html"+'<img src=\'data:image/png;base64,{}\'>'
-    f.write(html)
-
-
-new=2
-url = "SKHomePage.html"
-webbrowser.open(url,new=new)"""
